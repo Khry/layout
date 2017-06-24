@@ -1,0 +1,360 @@
+*{
+	margin:0;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	font-style: medium;
+	font-weight: bolder;
+}
+header{
+	height: 260px;
+	background-image: linear-gradient(to top right, #FFB99C 0%, #87D7FF 100%);
+}
+.svglogo{
+	height: 280px;
+	width: 280px;
+  left: 60px;
+  top: 90px;
+  position: absolute;
+  z-index: 3;
+}
+.hand{
+	position: absolute;
+	width:  105px;
+	top: 75px;
+	left:90px;
+}
+.circle{
+	position: absolute;
+}
+.use{
+	position: absolute;
+	width:  220px;
+	top: 120px;
+	right: 100px;
+}
+/*//header*/
+.headnav{
+	margin: 0 60px;
+}
+.headnav>a{
+  display: inline-block;
+  text-decoration: none;
+  margin:30px 33px;
+  padding-bottom: 5px;
+  float: right;
+  text-decoration: none;
+  color: #000;
+}
+.border{
+	border-bottom: 1px solid black;
+}
+.aboutUs{
+	position: absolute;
+	top:250px;
+	left:100px;
+	font-size: 60px;
+}
+.about{
+	position: relative;
+	height: 700px;
+}
+.who{
+	position: absolute;
+	bottom: 20px;
+	right: 80px;
+  width: 40%;
+
+}
+.about p,.about b{
+	margin: 15px;
+}
+.ourWork{
+	
+	width: 100%;
+	clear: both;
+
+}
+.ourWork b{
+
+	width: 50%;
+  font-size: 45px;
+  margin: 60px 250px;
+  position: absolute;
+  z-index: 3;
+
+}
+.foto1{
+	float: right;
+  display: block;
+  width: 40%;
+  position: relative;
+  z-index: 1;
+  margin: 240px 190px 10px 0;
+
+}
+.foto2{
+	position: relative;
+  display: block;
+  margin-left: 20%;
+  width: 35%;
+  padding-top: 420px;
+  z-index: 2;
+}
+.strive{
+	clear: both;
+	width:40%;
+	float: right;
+	bottom: 5px;
+	right: 70px;
+	margin: 45px;
+}
+.elaborate{
+	clear: both;
+	display: grid;
+  grid-template-columns: 45% 1fr 35%;
+  grid-template-rows: 60% 1fr;
+}
+.foto3{
+	grid-column:1;
+	grid-row:1/3;
+	width: 80%;
+	padding: 10px;
+	margin: 120px;
+}
+.foto4{
+	grid-column:3;
+	grid-row:1;
+	width: 75%;
+	margin: 260px 120px 140px 10px;
+}
+.elaborate>b{
+	grid-column:2/4;
+	grid-row:2;
+	width: 70%;
+	margin:20px 100px 10px 120px;
+}
+.elaborate>p{
+	grid-column:2/4;
+	grid-row:2;
+	width: 70%;
+	margin:60px 120px;
+}
+.weHelp{
+	width: 60%;
+	margin: 120px;
+	font-size: 42px;
+	line-height: 65px;
+}
+.col3{
+	margin: 0; 
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+}
+.cols{
+	flex: 1 1 auto;
+	text-align: center;
+}
+.cols b{
+	  font-size: 40px;
+    font-stretch:expanded;
+    
+}
+.cols p{
+	  line-height: 50px;
+	  
+
+}
+.cols .downsvg{
+	margin: 30px 0;
+  transform: rotate(90deg);
+  text-align: center;
+}
+.downsvg> svg{
+  height: auto;
+  width: 35px;
+}
+.fot2{
+	display: grid;
+  grid-template-columns: 60% 20% 1fr;
+}
+.foto5{
+	grid-column:1;
+	width: 80%;
+	margin: 100px;
+}
+.foto6{
+	grid-column:2;
+	width: 100%;
+	margin-top: 260px;
+}
+.west{
+	width: 43%;
+	float: right;
+	position: relative;
+	margin: 10px 70px;
+	line-height: 35px;
+}
+.ourLove{
+	clear: both;
+}
+.ourLove b{
+	width: 55%;
+  font-size: 45px;
+  margin: 60px 250px;
+  position: absolute;
+  z-index: 3;}
+.foto7{
+	float: right;
+  display: block;
+  width: 20%;
+  position: relative;
+  z-index: 2;
+  margin: 380px 120px 10px 0;
+}
+.foto8{
+	position: relative;
+  display: block;
+  margin-left: 40%;
+  width: 35%;
+  padding-top: 200px;
+  z-index: 1;
+}
+.read{
+	display: flex;
+	justify-content: space-around;
+	margin: 50px;
+}
+.read a{
+
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+  color: #000;
+  
+}
+.gradient{
+	background-image: linear-gradient(to top right, #FFB99C 0%, #87D7FF 100%);
+	color: white;
+	min-height: 100%;
+	float: left;
+
+
+	}
+
+.h1grad{
+	text-align: center;
+	font-size: 44px;
+	width: 60%;
+	margin: 0 20%;
+	padding-top: 160px;
+
+}
+.team{
+	float: left;
+	height: auto;
+	margin: 130px 8%;
+	display: block;
+	text-align: center;
+
+}
+.person{
+	position: relative;
+	float: left;
+	display: block;
+	width: 28%;
+	height: auto;
+	margin: 2.3%;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+  
+}
+.wrapperson{
+	width: 100%;
+	height: auto;
+	position: relative;
+	overflow: hidden;
+	
+	}
+.image{
+	width: 100%;
+	margin: 17px 0 ;
+}
+
+.company{
+	display: flex;  
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: space-around;
+  align-content: space-around;
+  max-width: 1200px;
+  margin: 70px auto;
+  border-bottom: 4px solid white;
+  padding-bottom: 180px;
+}
+.company .logo{
+	flex:1 1 auto;
+  max-width: 30%;
+  padding: 20px;
+  margin: 100px 40px;
+}
+.company img{
+	max-width: 250px;
+}
+.bigbr{
+	line-height: px;
+}
+.white a{
+	color:white;
+	border-color: white;
+	margin-bottom: 40px;
+}
+.footernav{
+	margin: 0 60px;
+}
+.footernav>a{
+  display: inline-block;
+  text-decoration: none;
+  margin:30px 33px;
+  padding-bottom: 5px;
+  float: right;
+  text-decoration: none;
+  color: #fff;
+  border-color: #fff;
+}
+.footernav .left{
+	float:left;
+	}
+footer{
+	display: flex;  
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: space-around;
+  align-content: space-around;
+  margin: 70px ;
+  border-top: 2px solid white;
+  
+}
+.foot{
+	flex:1 1 auto;
+  max-width: 33%;
+  margin: 80px 40px 70px 40px;
+  line-height: 40px;
+}
+.icon{
+	float: right;
+
+}
+.icon svg{
+	width: 40px;
+	color: white;
+	padding: 5px;
+	margin: 0;
+	fill: #fff;
+
+}
+.rights{
+	margin: 0 0 60px 70px;
+	font-size: 20px;
+}
